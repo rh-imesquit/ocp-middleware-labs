@@ -2,7 +2,7 @@
 # Imagem base: Red Hat UBI 8 com PHP 8.1
 # Compatível com OpenShift (non-root por padrão)
 # ──────────────────────────────────────────────────────────────────
-FROM registry.access.redhat.com/ubi8/php-81:latest
+FROM registry.redhat.io/ubi8/php-81:latest
 
 # Metadados
 LABEL maintainer="lab-vpa"
