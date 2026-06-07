@@ -1,6 +1,9 @@
 oc project apps
 
 
+oc delete all -l app=php-vpa-app
+
+
 oc new-app https://github.com/rh-imesquit/ocp-middleware-labs \
   --context-dir=apps/vpa/php-vpa-app \
   --name=php-vpa-app \
